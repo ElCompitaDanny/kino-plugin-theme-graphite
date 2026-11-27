@@ -1,7 +1,7 @@
 {
   "id": "theme-graphite",
   "name": "Graphite",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "apiVersion": 26,
   "entry": "plugin.js",
   "icon": "icon.png",
@@ -149,7 +149,7 @@
         "navActive": {
           "fill": {
             "type": "solid",
-            "color": "#1C1C1E"
+            "color": "#FFFFFF"
           },
           "stroke": {
             "width": 1.5,
@@ -157,8 +157,8 @@
           },
           "glow": {
             "color": "#FFFFFF",
-            "radius": 6,
-            "alpha": 0.0
+            "radius": 8,
+            "alpha": 0.12
           }
         },
         "rail": {
@@ -240,7 +240,7 @@
           "navActive": {
             "fill": {
               "type": "solid",
-              "color": "#1C1C1E"
+              "color": "#FFFFFF"
             },
             "stroke": {
               "width": 1.5,
@@ -248,8 +248,8 @@
             },
             "glow": {
               "color": "#FFFFFF",
-              "radius": 6,
-              "alpha": 0.0
+              "radius": 8,
+              "alpha": 0.12
             }
           },
           "hero": {
