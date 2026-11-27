@@ -1,0 +1,373 @@
+{
+  "id": "theme-graphite",
+  "name": "Graphite",
+  "version": "1.0.0",
+  "apiVersion": 26,
+  "entry": "plugin.js",
+  "icon": "icon.png",
+  "description": "Graphite: un tema grafito minimalista para Kino (negro, gris y blanco, foco blanco, esquinas amplias, héroe enmarcado, riel flotante y logo propio). Inspirado en Apple TV, no oficial. / A minimal graphite Kino theme (black, gray and white, white focus, generous corners, framed hero, floating rail and its own logo). Apple TV-inspired, unofficial.",
+  "author": "ElCompitaDanny",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "appThemes": [
+    {
+      "id": "graphite",
+      "name": {
+        "es": "Graphite",
+        "en": "Graphite"
+      },
+      "colors": {
+        "accent": "#FFFFFF",
+        "onAccent": "#000000",
+        "background": "#000000",
+        "surface": "#1C1C1E",
+        "surfaceHigh": "#2C2C2E",
+        "textPrimary": "#FFFFFF",
+        "textSecondary": "#A1A1A6",
+        "focus": "#FFFFFF",
+        "onFocus": "#000000",
+        "outline": "#48484A",
+        "railPanel": "#101012",
+        "scrim": "#000000",
+        "border": "#38383A",
+        "success": "#46D369",
+        "warning": "#F5C518",
+        "error": "#D32F2F",
+        "favorite": "#D32F2F"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#000000",
+          "#101012",
+          "#1C1C1E"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 14,
+        "channelRadius": 14,
+        "buttonRadius": 24,
+        "chipRadius": 20,
+        "dialogRadius": 16,
+        "inputRadius": 8,
+        "dialogBorder": 1,
+        "menuBorder": 1,
+        "headerBorder": 1,
+        "cardBorder": 1,
+        "panelBorder": 1,
+        "heroRadius": 20,
+        "railItemRadius": 14
+      },
+      "typography": {
+        "scale": 1.0,
+        "titleScale": 1.08,
+        "bodyScale": 1.0
+      },
+      "elevation": {
+        "cardShadow": 0.35,
+        "dialogShadow": 0.55,
+        "heroScrim": 0.82
+      },
+      "motion": {
+        "focusZoom": 1.1,
+        "crossfadeMs": 220,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.0,
+        "playButtonScale": 1.12,
+        "seekBarScale": 1.2,
+        "labelScale": 1.0,
+        "buttonShape": "rounded"
+      },
+      "experience": "full",
+      "pluginColors": "respect",
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#FFFFFF",
+            "#E5E5EA",
+            "#64D2FF",
+            "#FF9F0A"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 6,
+          "max": 18
+        },
+        "typography.scale": {
+          "min": 0.9,
+          "max": 1.12
+        },
+        "background": true
+      },
+      "style": {
+        "gloss": 0.12
+      },
+      "layout": {
+        "hero": "framed",
+        "rail": "floating"
+      },
+      "surfaces": {
+        "button": {
+          "fill": {
+            "type": "gradient",
+            "colors": [
+              "#FFFFFF",
+              "#C7C7CC"
+            ],
+            "angle": 180
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#FFFFFF"
+          }
+        },
+        "buttonGhost": {
+          "fill": {
+            "type": "solid",
+            "color": "#242426"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#58585B"
+          }
+        },
+        "iconButton": {
+          "fill": {
+            "type": "solid",
+            "color": "#242426"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#58585B"
+          }
+        },
+        "navActive": {
+          "fill": {
+            "type": "solid",
+            "color": "#2C2C2E"
+          },
+          "stroke": {
+            "width": 1.5,
+            "color": "#FFFFFF"
+          },
+          "glow": {
+            "color": "#FFFFFF",
+            "radius": 6,
+            "alpha": 0.1
+          }
+        },
+        "rail": {
+          "fill": {
+            "type": "solid",
+            "color": "#101012"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#48484A"
+          }
+        },
+        "card": {
+          "glow": {
+            "color": "#FFFFFF",
+            "radius": 8,
+            "alpha": 0.16
+          }
+        },
+        "cardFocus": {
+          "stroke": {
+            "width": 2,
+            "color": "#FFFFFF"
+          },
+          "glow": {
+            "color": "#000000",
+            "radius": 20,
+            "alpha": 0.7
+          }
+        },
+        "focus": {
+          "stroke": {
+            "width": 2,
+            "color": "#FFFFFF"
+          },
+          "glow": {
+            "color": "#000000",
+            "radius": 14,
+            "alpha": 0.6
+          }
+        },
+        "hero": {
+          "stroke": {
+            "width": 1,
+            "color": "#2C2C2E"
+          }
+        },
+        "progress": {
+          "fill": {
+            "type": "gradient",
+            "colors": [
+              "#E5E5EA",
+              "#FFFFFF"
+            ],
+            "angle": 0
+          }
+        }
+      },
+      "tv": {
+        "layout": {
+          "hero": "framed",
+          "rail": "floating"
+        },
+        "shape": {
+          "heroRadius": 20,
+          "railItemRadius": 14
+        },
+        "surfaces": {
+          "rail": {
+            "fill": {
+              "type": "solid",
+              "color": "#101012"
+            },
+            "stroke": {
+              "width": 1,
+              "color": "#48484A"
+            }
+          },
+          "navActive": {
+            "fill": {
+              "type": "solid",
+              "color": "#2C2C2E"
+            },
+            "stroke": {
+              "width": 1.5,
+              "color": "#FFFFFF"
+            },
+            "glow": {
+              "color": "#FFFFFF",
+              "radius": 6,
+              "alpha": 0.1
+            }
+          },
+          "hero": {
+            "stroke": {
+              "width": 1,
+              "color": "#2C2C2E"
+            }
+          },
+          "cardFocus": {
+            "stroke": {
+              "width": 2,
+              "color": "#FFFFFF"
+            },
+            "glow": {
+              "color": "#000000",
+              "radius": 20,
+              "alpha": 0.7
+            }
+          }
+        }
+      },
+      "phone": {
+        "shape": {
+          "cardRadius": 16,
+          "buttonRadius": 24
+        },
+        "surfaces": {
+          "button": {
+            "fill": {
+              "type": "gradient",
+              "colors": [
+                "#FFFFFF",
+                "#C7C7CC"
+              ],
+              "angle": 180
+            },
+            "stroke": {
+              "width": 1,
+              "color": "#FFFFFF"
+            }
+          },
+          "buttonGhost": {
+            "fill": {
+              "type": "solid",
+              "color": "#242426"
+            },
+            "stroke": {
+              "width": 1,
+              "color": "#58585B"
+            }
+          },
+          "iconButton": {
+            "fill": {
+              "type": "solid",
+              "color": "#242426"
+            },
+            "stroke": {
+              "width": 1,
+              "color": "#58585B"
+            }
+          },
+          "card": {
+            "glow": {
+              "color": "#FFFFFF",
+              "radius": 6,
+              "alpha": 0.1
+            }
+          },
+          "progress": {
+            "fill": {
+              "type": "gradient",
+              "colors": [
+                "#E5E5EA",
+                "#FFFFFF"
+              ],
+              "angle": 0
+            }
+          }
+        }
+      },
+      "logo": {
+        "wordmark": {
+          "size": [
+            268,
+            80
+          ],
+          "paths": [
+            {
+              "d": "M 10 15 L 21 15 L 21 37 L 41 15 L 55 15 L 34 40 L 57 65 L 43 65 L 26 46 L 21 51 L 21 65 L 10 65 Z M 68 15 L 79 15 L 79 65 L 68 65 Z M 92 15 L 104 15 L 116 46 L 116 15 L 127 15 L 127 65 L 115 65 L 103 34 L 103 65 L 92 65 Z M 191.0 40.0 Q 191.0 50.4 183.7 57.7 Q 176.4 65.0 166.0 65.0 Q 155.6 65.0 148.3 57.7 Q 141.0 50.4 141.0 40.0 Q 141.0 29.6 148.3 22.3 Q 155.6 15.0 166.0 15.0 Q 176.4 15.0 183.7 22.3 Q 191.0 29.6 191.0 40.0 Z M 181.0 40.0 Q 181.0 33.8 176.6 29.4 Q 172.2 25.0 166.0 25.0 Q 159.8 25.0 155.4 29.4 Q 151.0 33.8 151.0 40.0 Q 151.0 46.2 155.4 50.6 Q 159.8 55.0 166.0 55.0 Q 172.2 55.0 176.6 50.6 Q 181.0 46.2 181.0 40.0 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M 174.0 40.0 Q 174.0 43.3 171.7 45.7 Q 169.3 48.0 166.0 48.0 Q 162.7 48.0 160.3 45.7 Q 158.0 43.3 158.0 40.0 Q 158.0 36.7 160.3 34.3 Q 162.7 32.0 166.0 32.0 Q 169.3 32.0 171.7 34.3 Q 174.0 36.7 174.0 40.0 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M 200 12 L 226 12 L 226 19 L 217 19 L 217 36 L 209 36 L 209 19 L 200 19 Z M 229 12 L 237 12 L 243 28 L 249 12 L 257 12 L 247 36 L 239 36 Z",
+              "fill": "textPrimary"
+            }
+          ]
+        },
+        "mark": {
+          "size": [
+            64,
+            64
+          ],
+          "paths": [
+            {
+              "d": "M 62.0 32.0 Q 62.0 44.4 53.2 53.2 Q 44.4 62.0 32.0 62.0 Q 19.6 62.0 10.8 53.2 Q 2.0 44.4 2.0 32.0 Q 2.0 19.6 10.8 10.8 Q 19.6 2.0 32.0 2.0 Q 44.4 2.0 53.2 10.8 Q 62.0 19.6 62.0 32.0 Z M 54.0 32.0 Q 54.0 22.9 47.6 16.4 Q 41.1 10.0 32.0 10.0 Q 22.9 10.0 16.4 16.4 Q 10.0 22.9 10.0 32.0 Q 10.0 41.1 16.4 47.6 Q 22.9 54.0 32.0 54.0 Q 41.1 54.0 47.6 47.6 Q 54.0 41.1 54.0 32.0 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M 46.0 32.0 Q 46.0 37.8 41.9 41.9 Q 37.8 46.0 32.0 46.0 Q 26.2 46.0 22.1 41.9 Q 18.0 37.8 18.0 32.0 Q 18.0 26.2 22.1 22.1 Q 26.2 18.0 32.0 18.0 Q 37.8 18.0 41.9 22.1 Q 46.0 26.2 46.0 32.0 Z",
+              "fill": "accent"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
