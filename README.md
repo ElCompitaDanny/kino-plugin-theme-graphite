@@ -4,6 +4,10 @@
 
 **EN** — A minimal graphite Kino theme for phone and Android TV, Apple TV-inspired: deep black and neutral grays, white accent and focus with black text, generous corners, a bigger zoom on focus, a framed hero, a floating rail and its own logo. Independent, unofficial project, not affiliated with Apple.
 
+![Teléfono / Phone](docs/screenshots/phone-home.jpg)
+![TV](docs/screenshots/tv-home.png)
+![Menú TV / TV menu](docs/screenshots/tv-menu.png)
+
 ## Instalar / Install
 
 En Kino: **Plugins ▸ Agregar**, escribe / type: `ElCompitaDanny/kino-plugin-theme-graphite`.
@@ -28,7 +32,7 @@ Acento (blanco, plata, celeste o naranja), redondeo de tarjetas, escala tipográ
 ## Validación / Validation
 
 Con Node 18+ y el [SDK oficial](https://github.com/kinotvapp/kino-plugin-sdk): `node sdk/validate.mjs .`
-Aún pendiente: ejecutar el validador oficial y probar este tema en dispositivo.
+Probado a mano en teléfono y Android TV. El validador oficial aún no se ha ejecutado.
 
 ## Límite del tema / Scope
 
