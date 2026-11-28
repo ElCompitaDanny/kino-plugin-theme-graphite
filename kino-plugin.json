@@ -1,11 +1,11 @@
 {
   "id": "theme-graphite",
   "name": "Graphite",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "apiVersion": 26,
   "entry": "plugin.js",
   "icon": "icon.png",
-  "description": "Graphite: un tema grafito minimalista para Kino (negro, gris y blanco, foco blanco, esquinas amplias, héroe enmarcado, riel flotante y logo propio). Inspirado en Apple TV, no oficial. / A minimal graphite Kino theme (black, gray and white, white focus, generous corners, framed hero, floating rail and its own logo). Apple TV-inspired, unofficial.",
+  "description": "Graphite: tema rediseñado inspirado en la interfaz de Apple TV+ (negro carbón profundo, superficies de vidrio ahumado con bordes sutiles, botones blancos tipo píldora, zoom cinematográfico al enfocar y logotipo minimalista kino+). No oficial. / Graphite: redesigned theme inspired by the Apple TV+ app interface (deep carbon black, smoked-glass surfaces with subtle rim borders, white pill buttons, cinematic focus zoom and minimal kino+ wordmark). Unofficial.",
   "author": "ElCompitaDanny",
   "hosts": [],
   "categories": [
@@ -21,45 +21,45 @@
       "colors": {
         "accent": "#FFFFFF",
         "onAccent": "#000000",
-        "background": "#000000",
-        "surface": "#1C1C1E",
-        "surfaceHigh": "#2C2C2E",
+        "background": "#0B0B0D",
+        "surface": "#18181C",
+        "surfaceHigh": "#26262C",
         "textPrimary": "#FFFFFF",
-        "textSecondary": "#A1A1A6",
+        "textSecondary": "#9E9EA6",
         "focus": "#FFFFFF",
         "onFocus": "#000000",
-        "outline": "#48484A",
-        "railPanel": "#101012",
+        "outline": "#484850",
+        "railPanel": "#121215",
         "scrim": "#000000",
-        "border": "#38383A",
-        "success": "#46D369",
-        "warning": "#F5C518",
-        "error": "#D32F2F",
-        "favorite": "#D32F2F"
+        "border": "#323238",
+        "success": "#30D158",
+        "warning": "#FFD60A",
+        "error": "#FF453A",
+        "favorite": "#FFFFFF"
       },
       "background": {
         "type": "gradient",
         "colors": [
-          "#000000",
-          "#101012",
-          "#1C1C1E"
+          "#09090B",
+          "#121216",
+          "#1B1B20"
         ],
         "angle": 180
       },
       "shape": {
-        "cardRadius": 14,
-        "channelRadius": 14,
+        "cardRadius": 16,
+        "channelRadius": 16,
         "buttonRadius": 24,
-        "chipRadius": 20,
-        "dialogRadius": 16,
-        "inputRadius": 8,
+        "chipRadius": 22,
+        "dialogRadius": 24,
+        "inputRadius": 12,
         "dialogBorder": 1,
         "menuBorder": 1,
         "headerBorder": 1,
         "cardBorder": 1,
         "panelBorder": 1,
-        "heroRadius": 20,
-        "railItemRadius": 14
+        "heroRadius": 24,
+        "railItemRadius": 16
       },
       "typography": {
         "scale": 1.0,
@@ -67,19 +67,19 @@
         "bodyScale": 1.0
       },
       "elevation": {
-        "cardShadow": 0.35,
-        "dialogShadow": 0.55,
-        "heroScrim": 0.82
+        "cardShadow": 0.4,
+        "dialogShadow": 0.65,
+        "heroScrim": 0.85
       },
       "motion": {
-        "focusZoom": 1.1,
-        "crossfadeMs": 220,
+        "focusZoom": 1.09,
+        "crossfadeMs": 240,
         "heroDrift": "on"
       },
       "player": {
         "buttonScale": 1.0,
-        "playButtonScale": 1.12,
-        "seekBarScale": 1.2,
+        "playButtonScale": 1.14,
+        "seekBarScale": 1.15,
         "labelScale": 1.0,
         "buttonShape": "rounded"
       },
@@ -91,12 +91,12 @@
             "#FFFFFF",
             "#E5E5EA",
             "#64D2FF",
-            "#FF9F0A"
+            "#FFD60A"
           ]
         },
         "shape.cardRadius": {
-          "min": 6,
-          "max": 18
+          "min": 8,
+          "max": 20
         },
         "typography.scale": {
           "min": 0.9,
@@ -105,7 +105,7 @@
         "background": true
       },
       "style": {
-        "gloss": 0.12
+        "gloss": 0.28
       },
       "layout": {
         "hero": "framed",
@@ -117,7 +117,7 @@
             "type": "gradient",
             "colors": [
               "#FFFFFF",
-              "#C7C7CC"
+              "#EBEBF0"
             ],
             "angle": 180
           },
@@ -128,28 +128,54 @@
         },
         "buttonGhost": {
           "fill": {
-            "type": "solid",
-            "color": "#242426"
+            "type": "gradient",
+            "colors": [
+              "#2C2C32",
+              "#1E1E23"
+            ],
+            "angle": 180
           },
           "stroke": {
             "width": 1,
-            "color": "#58585B"
+            "gradient": {
+              "type": "gradient",
+              "colors": [
+                "#5C5C66",
+                "#34343B"
+              ],
+              "angle": 135
+            }
           }
         },
         "iconButton": {
           "fill": {
-            "type": "solid",
-            "color": "#242426"
+            "type": "gradient",
+            "colors": [
+              "#2C2C32",
+              "#1E1E23"
+            ],
+            "angle": 180
           },
           "stroke": {
             "width": 1,
-            "color": "#58585B"
+            "gradient": {
+              "type": "gradient",
+              "colors": [
+                "#5C5C66",
+                "#34343B"
+              ],
+              "angle": 135
+            }
           }
         },
         "navActive": {
           "fill": {
-            "type": "solid",
-            "color": "#FFFFFF"
+            "type": "gradient",
+            "colors": [
+              "#FFFFFF",
+              "#E5E5EA"
+            ],
+            "angle": 180
           },
           "stroke": {
             "width": 1.5,
@@ -157,36 +183,54 @@
           },
           "glow": {
             "color": "#FFFFFF",
-            "radius": 8,
-            "alpha": 0.12
+            "radius": 14,
+            "alpha": 0.22
           }
         },
         "rail": {
           "fill": {
-            "type": "solid",
-            "color": "#101012"
+            "type": "gradient",
+            "colors": [
+              "#1C1C21",
+              "#121216"
+            ],
+            "angle": 180
           },
           "stroke": {
             "width": 1,
-            "color": "#48484A"
+            "gradient": {
+              "type": "gradient",
+              "colors": [
+                "#484852",
+                "#26262C"
+              ],
+              "angle": 135
+            }
           }
         },
         "card": {
           "glow": {
-            "color": "#FFFFFF",
-            "radius": 8,
-            "alpha": 0.16
+            "color": "#000000",
+            "radius": 10,
+            "alpha": 0.25
           }
         },
         "cardFocus": {
           "stroke": {
-            "width": 2,
-            "color": "#FFFFFF"
+            "width": 2.5,
+            "gradient": {
+              "type": "gradient",
+              "colors": [
+                "#FFFFFF",
+                "#D1D1D6"
+              ],
+              "angle": 135
+            }
           },
           "glow": {
-            "color": "#000000",
+            "color": "#FFFFFF",
             "radius": 20,
-            "alpha": 0.7
+            "alpha": 0.28
           }
         },
         "focus": {
@@ -195,23 +239,30 @@
             "color": "#FFFFFF"
           },
           "glow": {
-            "color": "#000000",
+            "color": "#FFFFFF",
             "radius": 14,
-            "alpha": 0.6
+            "alpha": 0.24
           }
         },
         "hero": {
           "stroke": {
             "width": 1,
-            "color": "#2C2C2E"
+            "gradient": {
+              "type": "gradient",
+              "colors": [
+                "#4A4A52",
+                "#222228"
+              ],
+              "angle": 135
+            }
           }
         },
         "progress": {
           "fill": {
             "type": "gradient",
             "colors": [
-              "#E5E5EA",
-              "#FFFFFF"
+              "#FFFFFF",
+              "#AEAEB2"
             ],
             "angle": 0
           }
@@ -223,24 +274,39 @@
           "rail": "floating"
         },
         "shape": {
-          "heroRadius": 20,
-          "railItemRadius": 14
+          "heroRadius": 24,
+          "railItemRadius": 16
         },
         "surfaces": {
           "rail": {
             "fill": {
-              "type": "solid",
-              "color": "#101012"
+              "type": "gradient",
+              "colors": [
+                "#1C1C21",
+                "#121216"
+              ],
+              "angle": 180
             },
             "stroke": {
               "width": 1,
-              "color": "#48484A"
+              "gradient": {
+                "type": "gradient",
+                "colors": [
+                  "#484852",
+                  "#26262C"
+                ],
+                "angle": 135
+              }
             }
           },
           "navActive": {
             "fill": {
-              "type": "solid",
-              "color": "#FFFFFF"
+              "type": "gradient",
+              "colors": [
+                "#FFFFFF",
+                "#E5E5EA"
+              ],
+              "angle": 180
             },
             "stroke": {
               "width": 1.5,
@@ -248,25 +314,39 @@
             },
             "glow": {
               "color": "#FFFFFF",
-              "radius": 8,
-              "alpha": 0.12
+              "radius": 14,
+              "alpha": 0.22
             }
           },
           "hero": {
             "stroke": {
               "width": 1,
-              "color": "#2C2C2E"
+              "gradient": {
+                "type": "gradient",
+                "colors": [
+                  "#4A4A52",
+                  "#222228"
+                ],
+                "angle": 135
+              }
             }
           },
           "cardFocus": {
             "stroke": {
-              "width": 2,
-              "color": "#FFFFFF"
+              "width": 2.5,
+              "gradient": {
+                "type": "gradient",
+                "colors": [
+                  "#FFFFFF",
+                  "#D1D1D6"
+                ],
+                "angle": 135
+              }
             },
             "glow": {
-              "color": "#000000",
+              "color": "#FFFFFF",
               "radius": 20,
-              "alpha": 0.7
+              "alpha": 0.28
             }
           }
         }
@@ -282,7 +362,7 @@
               "type": "gradient",
               "colors": [
                 "#FFFFFF",
-                "#C7C7CC"
+                "#EBEBF0"
               ],
               "angle": 180
             },
@@ -293,37 +373,59 @@
           },
           "buttonGhost": {
             "fill": {
-              "type": "solid",
-              "color": "#242426"
+              "type": "gradient",
+              "colors": [
+                "#2C2C32",
+                "#1E1E23"
+              ],
+              "angle": 180
             },
             "stroke": {
               "width": 1,
-              "color": "#58585B"
+              "gradient": {
+                "type": "gradient",
+                "colors": [
+                  "#5C5C66",
+                  "#34343B"
+                ],
+                "angle": 135
+              }
             }
           },
           "iconButton": {
             "fill": {
-              "type": "solid",
-              "color": "#242426"
+              "type": "gradient",
+              "colors": [
+                "#2C2C32",
+                "#1E1E23"
+              ],
+              "angle": 180
             },
             "stroke": {
               "width": 1,
-              "color": "#58585B"
+              "gradient": {
+                "type": "gradient",
+                "colors": [
+                  "#5C5C66",
+                  "#34343B"
+                ],
+                "angle": 135
+              }
             }
           },
           "card": {
             "glow": {
-              "color": "#FFFFFF",
-              "radius": 6,
-              "alpha": 0.1
+              "color": "#000000",
+              "radius": 8,
+              "alpha": 0.2
             }
           },
           "progress": {
             "fill": {
               "type": "gradient",
               "colors": [
-                "#E5E5EA",
-                "#FFFFFF"
+                "#FFFFFF",
+                "#AEAEB2"
               ],
               "angle": 0
             }
@@ -333,21 +435,25 @@
       "logo": {
         "wordmark": {
           "size": [
-            268,
+            234,
             80
           ],
           "paths": [
             {
-              "d": "M 10 15 L 21 15 L 21 37 L 41 15 L 55 15 L 34 40 L 57 65 L 43 65 L 26 46 L 21 51 L 21 65 L 10 65 Z M 68 15 L 79 15 L 79 65 L 68 65 Z M 92 15 L 104 15 L 116 46 L 116 15 L 127 15 L 127 65 L 115 65 L 103 34 L 103 65 L 92 65 Z M 191.0 40.0 Q 191.0 50.4 183.7 57.7 Q 176.4 65.0 166.0 65.0 Q 155.6 65.0 148.3 57.7 Q 141.0 50.4 141.0 40.0 Q 141.0 29.6 148.3 22.3 Q 155.6 15.0 166.0 15.0 Q 176.4 15.0 183.7 22.3 Q 191.0 29.6 191.0 40.0 Z M 181.0 40.0 Q 181.0 33.8 176.6 29.4 Q 172.2 25.0 166.0 25.0 Q 159.8 25.0 155.4 29.4 Q 151.0 33.8 151.0 40.0 Q 151.0 46.2 155.4 50.6 Q 159.8 55.0 166.0 55.0 Q 172.2 55.0 176.6 50.6 Q 181.0 46.2 181.0 40.0 Z",
+              "d": "M 12 14 H 22 V 64 H 12 Z M 49 28 H 37 L 22 44 L 28 50 Z M 31 41 L 51 64 H 38 L 24 47 Z M 62 28 H 72 V 64 H 62 Z",
               "fill": "textPrimary"
             },
             {
-              "d": "M 174.0 40.0 Q 174.0 43.3 171.7 45.7 Q 169.3 48.0 166.0 48.0 Q 162.7 48.0 160.3 45.7 Q 158.0 43.3 158.0 40.0 Q 158.0 36.7 160.3 34.3 Q 162.7 32.0 166.0 32.0 Q 169.3 32.0 171.7 34.3 Q 174.0 36.7 174.0 40.0 Z",
+              "d": "M 67 12.5 Q 72.5 12.5 72.5 18 Q 72.5 23.5 67 23.5 Q 61.5 23.5 61.5 18 Q 61.5 12.5 67 12.5 Z M 84 64 V 28 H 94 V 33 Q 99 27 108 27 Q 122 27 122 43 V 64 H 112 V 44 Q 112 36 104 36 Q 94 36 94 45 V 64 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M 152 27 Q 171 27 171 46 Q 171 65 152 65 Q 133 65 133 46 Q 133 27 152 27 Z M 152 36.5 Q 142.5 36.5 142.5 46 Q 142.5 55.5 152 55.5 Q 161.5 55.5 161.5 46 Q 161.5 36.5 152 36.5 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M 199.5 26 H 208.5 V 37.5 H 220 V 46.5 H 208.5 V 58 H 199.5 V 46.5 H 188 V 37.5 H 199.5 Z",
               "fill": "accent"
-            },
-            {
-              "d": "M 200 12 L 226 12 L 226 19 L 217 19 L 217 36 L 209 36 L 209 19 L 200 19 Z M 229 12 L 237 12 L 243 28 L 249 12 L 257 12 L 247 36 L 239 36 Z",
-              "fill": "textPrimary"
             }
           ]
         },
@@ -358,11 +464,11 @@
           ],
           "paths": [
             {
-              "d": "M 62.0 32.0 Q 62.0 44.4 53.2 53.2 Q 44.4 62.0 32.0 62.0 Q 19.6 62.0 10.8 53.2 Q 2.0 44.4 2.0 32.0 Q 2.0 19.6 10.8 10.8 Q 19.6 2.0 32.0 2.0 Q 44.4 2.0 53.2 10.8 Q 62.0 19.6 62.0 32.0 Z M 54.0 32.0 Q 54.0 22.9 47.6 16.4 Q 41.1 10.0 32.0 10.0 Q 22.9 10.0 16.4 16.4 Q 10.0 22.9 10.0 32.0 Q 10.0 41.1 16.4 47.6 Q 22.9 54.0 32.0 54.0 Q 41.1 54.0 47.6 47.6 Q 54.0 41.1 54.0 32.0 Z",
+              "d": "M 18 4 H 46 Q 60 4 60 18 V 46 Q 60 60 46 60 H 18 Q 4 60 4 46 V 18 Q 4 4 18 4 Z M 19 10 Q 10 10 10 19 V 45 Q 10 54 19 54 H 45 Q 54 54 54 45 V 19 Q 54 10 45 10 Z",
               "fill": "textPrimary"
             },
             {
-              "d": "M 46.0 32.0 Q 46.0 37.8 41.9 41.9 Q 37.8 46.0 32.0 46.0 Q 26.2 46.0 22.1 41.9 Q 18.0 37.8 18.0 32.0 Q 18.0 26.2 22.1 22.1 Q 26.2 18.0 32.0 18.0 Q 37.8 18.0 41.9 22.1 Q 46.0 26.2 46.0 32.0 Z",
+              "d": "M 28.5 19 H 35.5 V 28.5 H 45 V 35.5 H 35.5 V 45 H 28.5 V 35.5 H 19 V 28.5 H 28.5 Z",
               "fill": "accent"
             }
           ]
